@@ -1,0 +1,103 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #000428 0%, #004e92 100%);
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00aaff;
+    font-weight: bold;
+}
+
+/* Biography Section */
+.bio-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.bio-image img {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    margin-right: 50px;
+}
+
+.bio-content {
+    max-width: 600px;
+}
+
+.bio-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.bio-highlight {
+    width: 150px;
+    height: 4px;
+    background-color: #00aaff;
+    margin-bottom: 20px;
+}
+
+.bio-content p {
+    color: #b0b0b0;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.bio-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Skill & Interest */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-item {
+    padding: 10px 20px;
+    border: 1px solid #00aaff;
+    border-radius: 30px;
+    color: #00aaff;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.skill-item:hover {
+    background-color: #00aaff;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+}

@@ -1,0 +1,99 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #000428 0%, #004e92 100%);
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00aaff;
+    font-weight: bold;
+}
+
+/* Education Section */
+.education-section {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.education-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.education-left {
+    width: 50%;
+}
+
+.education-left h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    width: 150px;
+    height: 4px;
+    background-color: #00aaff;
+    margin-bottom: 20px;
+}
+
+.education-left p {
+    color: #b0b0b0;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.education-right {
+    width: 50%;
+    text-align: right;
+}
+
+.education-right h2 {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 40px;
+}
+
+.education-right ul {
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.education-right li {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.education-right li strong {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+}
